@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abbou Monaco — Off-market Real Estate</title>
+  <meta name="description" content="Abbou Monaco — Off-market real estate. Présentation de Binyamin Abbou et sélection d'actifs à la vente.">
+  <meta property="og:title" content="Abbou Monaco — Off-market Real Estate">
+  <meta property="og:description" content="Off-market, hôtellerie, retail, logistique, résidentiel premium.">
+  <meta property="og:type" content="website">
+  <style>
+    /* Base reset */
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           color: #0f0f0f; background: #ffffff; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #6b7280;
+      --gold: #c7a94b;
+      --card: #f7f7f7;
+      --border: #e8e8e8;
+      --accent: #c7a94b;
+    }
+    .wrap { width: min(1100px, 92vw); margin: 0 auto; }
+    header.nav {
+      position: sticky; top: 0; z-index: 10;
+      backdrop-filter: saturate(180%) blur(8px);
+      background: rgba(255,255,255,0.85);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
+    .brand { font-weight: 700; letter-spacing: 0.5px; }
+    .brand small { font-weight: 500; color: var(--muted); display: block; font-size: 12px; letter-spacing: 0; }
+    .nav-links a { margin-left: 18px; font-size: 14px; color: #333; }
+    .cta { padding: 10px 14px; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent); }
+    .hero {
+      padding: 80px 0 60px;
+      background: linear-gradient(180deg, #ffffff 0%, #fbfbfb 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero h1 { font-size: clamp(28px, 5vw, 44px); margin: 0 0 10px; }
+    .hero p { color: var(--muted); margin: 0 0 18px; max-width: 800px; }
+    .badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; font-size: 14px; color: #333; }
+    .badge .dot { width: 6px; height: 6px; border-radius: 999px; background: var(--gold); display: inline-block; }
+    .grid { display: grid; gap: 18px; grid-template-columns: repeat(12, 1fr); }
+    .card {
+      grid-column: span 12;
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px;
+    }
+    @media (min-width: 800px) {
+      .card.half { grid-column: span 6; }
+      .card.third { grid-column: span 4; }
+    }
+    h2 { font-size: clamp(22px, 3.6vw, 32px); margin: 0 0 10px; }
+    h3 { margin: 0 0 8px; font-size: 18px; }
+    .muted { color: var(--muted); }
+    ul.clean { list-style: none; padding: 0; margin: 0; }
+    .pill { display: inline-block; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--border); margin: 4px 6px 0 0; font-size: 13px; color: #333; background: #fff; }
+    section { padding: 40px 0; }
+    footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
+    .kpis { display: flex; gap: 22px; flex-wrap: wrap; }
+    .kpis div { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; min-width: 160px; }
+    .flag { font-size: 20px; }
+    .asset { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+    .asset h3 { font-size: 16px; margin-bottom: 6px; }
+    .contact-card { display: grid; gap: 10px; background: #fff; border:1px solid var(--border); border-radius: 12px; padding:16px; }
+    .contact-card a { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="brand">Abbou Monaco <span class="flag">🇲🇨</span>
+        <small>Off-market • Hôtellerie • Retail • Logistique • Résidentiel</small>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">Qui suis-je</a>
+        <a href="#assets">Actifs</a>
+        <a href="#criteria">Critères</a>
+        <a class="cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge"><span class="dot"></span> Accès direct propriétaires & family offices</span>
+      <h1>Abbou Monaco — Sélection d'actifs off-market</h1>
+      <p>Je m’appelle <strong>Binyamin Abbou</strong>. J’accompagne des investisseurs qualifiés (family offices, fonds, opérateurs) sur des opérations <em>off-market</em> en France, au Portugal et en Espagne — avec un focus sur l’hôtellerie, le retail prime, la logistique et le résidentiel premium.</p>
+      <div class="kpis">
+        <div><strong>Ticket type</strong><br><span class="muted">5–60 M€</span></div>
+        <div><strong>Rendement cible</strong><br><span class="muted">≥ 7% brut acte en main</span></div>
+        <div><strong>Zones</strong><br><span class="muted">FR • PT • ES</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap grid">
+      <div class="card half">
+        <h2>Qui suis-je</h2>
+        <p>Monégasque, je travaille en direct avec propriétaires, développeurs et opérateurs pour sourcer et structurer des transactions à valeur ajoutée. Mon approche : <strong>confidentialité, fiabilité, exécution</strong>.</p>
+        <ul class="clean">
+          <li>• Accès direct aux décideurs</li>
+          <li>• Process clair (NDA, data-room, LOI)</li>
+          <li>• Alignement des intérêts et transparence</li>
+        </ul>
+      </div>
+      <div class="card half">
+        <h2>Ce que je vends</h2>
+        <p>Sélection d’actifs disponibles (exemples & placeholders à remplacer) :</p>
+        <span class="pill">Hôtels en gestion / baux fermes</span>
+        <span class="pill">Retail parks & pieds d’immeuble prime</span>
+        <span class="pill">Parcs d’activités & logistique urbaine</span>
+        <span class="pill">Immeubles résidentiels patrimoniaux</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="assets">
+    <div class="wrap">
+      <h2>Actifs disponibles (exemples)</h2>
+      <div class="grid">
+        <div class="asset card third">
+          <h3>Hôtel 4★ — Lisbonne (opérateur en place)</h3>
+          <p class="muted">Ticket 18–25 M€ • Bail ferme 15 ans • Yield cible 7–7,5%</p>
+        </div>
+        <div class="asset card third">
+          <h3>Retail prime — Porto Baixa</h3>
+          <p class="muted">Locataires: enseignes internationales • Bail 9–12 ans</p>
+        </div>
+        <div class="asset card third">
+          <h3>Parc d’activités — Espagne</h3>
+          <p class="muted">Surface 30.000 m² • Taux d’occupation 95% • Upside loyers</p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:10px;">Liste non exhaustive — partage sur demande après NDA.</p>
+    </div>
+  </section>
+
+  <section id="criteria">
+    <div class="wrap grid">
+      <div class="card">
+        <h2>Critères d’acquisition</h2>
+        <ul class="clean">
+          <li>• <strong>Ticket unitaire :</strong> 5 à 60 M€ (flexibilité selon qualité)</li>
+          <li>• <strong>Rendement :</strong> minimum 7% brut acte en main (selon typologie)</li>
+          <li>• <strong>Profil :</strong> actifs loués / opérés, revenus sécurisés (baux long terme, gestion ferme)</li>
+          <li>• <strong>Typologies :</strong> Hôtellerie, retail prime, logistique, résidentiel patrimonial</li>
+          <li>• <strong>Pays :</strong> France, Portugal, Espagne (ou opportunistes ailleurs)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap grid">
+      <div class="card half contact-card">
+        <h2>Contact</h2>
+        <p>Pour présenter un actif ou recevoir la liste complète des opportunités, contactez-moi :</p>
+        <div>
+          <strong>Binyamin Avner Abbou</strong><br>
+          <a href="mailto:abboubinyamin@icloud.com">abboubinyamin@icloud.com</a><br>
+          <a href="tel:+33772380915">+33 7 72 38 09 15</a>
+        </div>
+        <div>
+          <a class="cta" href="mailto:abboubinyamin@icloud.com?subject=Abbou%20Monaco%20—%20Contact">Envoyer un e-mail</a>
+        </div>
+      </div>
+      <div class="card half">
+        <h2>Mentions</h2>
+        <p class="muted">Toutes les informations sont communiquées à titre indicatif et non contractuel. Accès data-room et documents sur signature d’un NDA. Commissions et mandats cadrés en amont de toute mise en relation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Abbou Monaco · 🇲🇨 · Tous droits réservés
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
